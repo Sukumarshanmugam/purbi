@@ -8,7 +8,7 @@ h3{font-weight: 600; font-size: 36px;line-height: 45px;color: #1C1C1C;}
 h5{font-weight: 500;font-size: 16px; line-height: 20px;color: #5B5B5B;}
 
   
-         
+      
                
   
    /* h1 */
@@ -131,11 +131,22 @@ h5{font-weight: 500;font-size: 16px; line-height: 20px;color: #5B5B5B;}
 .technology-section .background-icons .icon-11{    position: absolute; top:  7618px; right: 500px}
  /* technology section */
  /* review section */
- .review-section{ background-image: url("../images/review section/Desktop\ -\ 68.png"); background-position: center;background-repeat: no-repeat;background-size: cover; height: 500px;width: 100%;} 
-       
-    .review-section .text-start span{display: inline-block;}
-  .review-section h5{font-style: normal;font-weight: 600;font-size: 32px; line-height: 35px; color: #000000;}
-  .review-section p{font-weight: 500;  font-size: 22px;line-height: 35px;/* or 159% */color: #2F2F2F;}
+ .review-section{ background-image: url("../images/review section/Desktop\ -\ 68.png"); background-position: center;background-repeat: no-repeat;background-size: cover; height: 532px;width: 100%;} 
+ .review-section .bg-image {margin: -72px 0px;}
+ .review-section .bg-image img{height: 477px; width: 100%;}
+ .review-section .picture-1{    position: absolute;transform: translateY(-279px);left: 991px;border: 10px solid #FDECE3; border-radius: 50%;}
+ .review-section .picture-2{    position: absolute;transform: translateY(-132px);left: 783px;border: 10px solid#ECF2D6; border-radius: 100%;}
+ .review-section .picture-3{    position: absolute;transform: translateY(0px);left: 926px;border: 10px solid #D3E3F3; border-radius: 100%;}
+ .review-section .picture-4{    position: absolute;transform: translateY(6px);left: 1195px;border: 10px solid #F8D2C7; border-radius: 100%;}
+ .review-section .picture-5{    position: absolute;transform: translateY(-132px);left: 1330px;border: 10px solid #FFE9CD; border-radius: 100%;}
+.review-section .button{display: flex; position: relative;left: 104px;top: -100px;}
+.review-section .button h2{padding: 0 0; font-size: 26px;}
+.review-section .button ul{list-style: none;}
+.review-section .button p{padding: 0 0;}
+.review-section .button .btn-warning{border-radius: 50%;}
+
+
+ 
   /* review section */
   /* map section */
   .map-section p{font-style: normal;font-weight: 600;font-size: 22px; line-height: 28px; color: #414141;}
@@ -146,11 +157,16 @@ h5{font-weight: 500;font-size: 16px; line-height: 20px;color: #5B5B5B;}
   .map-section .row-4{align-items: center; padding: 50px;} 
     /* map section */
     /* news section */
+    .news-section p{color: #5B5B5B;font-weight: 500; font-size: 16px; line-height: 20px;color: #5B5B5B;}
+      
+    
+     
 
 
-    /* news section */
+ /* news section */
 /* faq section */
-.faq-section .questions p{border-bottom: 1px solid #C2C2C2;}
+.faq-section .questions p{border-bottom: 1px solid #C2C2C2; font-weight: 500; font-size: 16px;line-height: 20px;color: #000000;}
+ 
 .faq-section .col-md-6 img{float:right}
 .faq-section img{margin-top: -149px;}
 /* faq section */
